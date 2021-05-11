@@ -31,6 +31,10 @@
   justify-content: center;
 }
 
+.getStarted{
+  background-color: #fff;
+}
+
 .features {
   display: flex;
   align-items: center;

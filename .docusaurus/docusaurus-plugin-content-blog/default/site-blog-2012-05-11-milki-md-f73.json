@@ -1,11 +1,11 @@
 {
   "permalink": "/blog/milki",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
-  "source": "@site/blog/2019-05-30-welcome.md",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2012-05-11-milki.md",
+  "source": "@site/blog/2012-05-11-milki.md",
   "title": "밀키",
   "description": "정보",
-  "date": "2019-05-30T00:00:00.000Z",
-  "formattedDate": "May 30, 2019",
+  "date": "2012-05-11T00:00:00.000Z",
+  "formattedDate": "May 11, 2012",
   "tags": [
     {
       "label": "publ",
@@ -20,10 +20,10 @@
       "permalink": "/blog/tags/zip-sa"
     }
   ],
-  "readingTime": 0.1,
+  "readingTime": 0.35,
   "truncated": false,
-  "nextItem": {
-    "title": "Hello",
-    "permalink": "/blog/hello-world"
+  "prevItem": {
+    "title": "Hola",
+    "permalink": "/blog/hola"
   }
 }

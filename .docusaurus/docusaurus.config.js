@@ -1,118 +1,32 @@
 export default {
   "title": "publ Tech Blog",
-  "tagline": "power overwhelming.",
-  "url": "https://your-docusaurus-test-site.com",
+  "tagline": "publ Tech Blog",
+  "url": "https://hdaleee.netlify.app",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "favicon": "../src/assets/logo.png",
+  "organizationName": "cclss",
+  "projectName": "tech blog",
   "themeConfig": {
     "navbar": {
-      "title": "My Facebook Project",
+      "title": "publ Tech Blog",
       "logo": {
-        "alt": "My Facebook Project Logo",
-        "src": "img/logo.svg"
+        "alt": "publ Logo",
+        "src": "../src/assets/logo.png"
       },
       "items": [
         {
-          "to": "docs/",
-          "activeBasePath": "docs",
-          "label": "Docs",
-          "position": "left"
-        },
-        {
-          "to": "blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
+          "href": "https://dev.publ.biz",
+          "label": "go to publ",
           "position": "right"
         }
       ],
       "hideOnScroll": false
     },
-    "footer": {
-      "style": "dark",
-      "links": [
-        {
-          "title": "Learn",
-          "items": [
-            {
-              "label": "Style Guide",
-              "to": "docs/"
-            },
-            {
-              "label": "Second Doc",
-              "to": "docs/doc2"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "Legal",
-          "items": [
-            {
-              "label": "Privacy",
-              "href": "https://opensource.facebook.com/legal/privacy/"
-            },
-            {
-              "label": "Terms",
-              "href": "https://opensource.facebook.com/legal/terms/"
-            },
-            {
-              "label": "Data Policy",
-              "href": "https://opensource.facebook.com/legal/data-policy/"
-            },
-            {
-              "label": "Cookie Policy",
-              "href": "https://opensource.facebook.com/legal/cookie-policy/"
-            }
-          ]
-        }
-      ],
-      "logo": {
-        "alt": "Facebook Open Source Logo",
-        "src": "img/oss_logo.png",
-        "href": "https://opensource.facebook.com"
-      },
-      "copyright": "Copyright © 2021 Facebook, Inc. Built with Docusaurus."
-    },
     "colorMode": {
       "defaultMode": "light",
-      "disableSwitch": false,
+      "disableSwitch": true,
       "respectPrefersColorScheme": false,
       "switchConfig": {
         "darkIcon": "🌜",
@@ -128,7 +42,7 @@ export default {
     "prism": {
       "additionalLanguages": []
     },
-    "hideableSidebar": false
+    "hideableSidebar": true
   },
   "presets": [
     [

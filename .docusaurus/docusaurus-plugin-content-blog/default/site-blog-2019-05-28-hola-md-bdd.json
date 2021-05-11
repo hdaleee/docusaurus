@@ -21,5 +21,9 @@
   "prevItem": {
     "title": "Hello",
     "permalink": "/blog/hello-world"
+  },
+  "nextItem": {
+    "title": "밀키",
+    "permalink": "/blog/milki"
   }
 }

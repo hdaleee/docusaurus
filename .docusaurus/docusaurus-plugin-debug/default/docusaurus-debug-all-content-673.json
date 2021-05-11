@@ -163,38 +163,6 @@
     "default": {
       "blogPosts": [
         {
-          "id": "welcome",
-          "metadata": {
-            "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
-            "source": "@site/blog/2019-05-30-welcome.md",
-            "title": "Welcome",
-            "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
-            "date": "2019-05-30T00:00:00.000Z",
-            "formattedDate": "May 30, 2019",
-            "tags": [
-              {
-                "label": "facebook",
-                "permalink": "/blog/tags/facebook"
-              },
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.175,
-            "truncated": false,
-            "nextItem": {
-              "title": "Hello",
-              "permalink": "/blog/hello-world"
-            }
-          }
-        },
-        {
           "id": "hello-world",
           "metadata": {
             "permalink": "/blog/hello-world",
@@ -216,10 +184,6 @@
             ],
             "readingTime": 0.12,
             "truncated": true,
-            "prevItem": {
-              "title": "Welcome",
-              "permalink": "/blog/welcome"
-            },
             "nextItem": {
               "title": "Hola",
               "permalink": "/blog/hola"
@@ -251,6 +215,42 @@
             "prevItem": {
               "title": "Hello",
               "permalink": "/blog/hello-world"
+            },
+            "nextItem": {
+              "title": "밀키",
+              "permalink": "/blog/milki"
+            }
+          }
+        },
+        {
+          "id": "milki",
+          "metadata": {
+            "permalink": "/blog/milki",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2012-05-11-milki.md",
+            "source": "@site/blog/2012-05-11-milki.md",
+            "title": "밀키",
+            "description": "정보",
+            "date": "2012-05-11T00:00:00.000Z",
+            "formattedDate": "May 11, 2012",
+            "tags": [
+              {
+                "label": "publ",
+                "permalink": "/blog/tags/publ"
+              },
+              {
+                "label": "cat",
+                "permalink": "/blog/tags/cat"
+              },
+              {
+                "label": "zip_sa",
+                "permalink": "/blog/tags/zip-sa"
+              }
+            ],
+            "readingTime": 0.35,
+            "truncated": false,
+            "prevItem": {
+              "title": "Hola",
+              "permalink": "/blog/hola"
             }
           }
         }
@@ -269,24 +269,16 @@
             "blogTitle": "Blog"
           },
           "items": [
-            "welcome",
             "hello-world",
-            "hola"
+            "hola",
+            "milki"
           ]
         }
       ],
       "blogTags": {
-        "facebook": {
-          "name": "facebook",
-          "items": [
-            "welcome"
-          ],
-          "permalink": "/blog/tags/facebook"
-        },
         "hello": {
           "name": "hello",
           "items": [
-            "welcome",
             "hello-world"
           ],
           "permalink": "/blog/tags/hello"
@@ -294,7 +286,6 @@
         "docusaurus": {
           "name": "docusaurus",
           "items": [
-            "welcome",
             "hello-world",
             "hola"
           ],
@@ -306,6 +297,27 @@
             "hola"
           ],
           "permalink": "/blog/tags/hola"
+        },
+        "publ": {
+          "name": "publ",
+          "items": [
+            "milki"
+          ],
+          "permalink": "/blog/tags/publ"
+        },
+        "cat": {
+          "name": "cat",
+          "items": [
+            "milki"
+          ],
+          "permalink": "/blog/tags/cat"
+        },
+        "zip-sa": {
+          "name": "zip_sa",
+          "items": [
+            "milki"
+          ],
+          "permalink": "/blog/tags/zip-sa"
         }
       },
       "blogTagsListPath": "/blog/tags"
