@@ -1,6 +1,6 @@
 export default {
-  "title": "My Site",
-  "tagline": "The tagline of my site",
+  "title": "publ Tech Blog",
+  "tagline": "power overwhelming.",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
